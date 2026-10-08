@@ -1,0 +1,83 @@
+[
+  {
+    "user": "alice",
+    "event_type": "login_failed",
+    "ip_address": "10.0.0.10",
+    "timestamp": "2026-10-08T09:00:00Z",
+    "location": "Kochi",
+    "success": false,
+    "role": "user"
+  },
+  {
+    "user": "alice",
+    "event_type": "login_failed",
+    "ip_address": "10.0.0.10",
+    "timestamp": "2026-10-08T09:01:00Z",
+    "location": "Kochi",
+    "success": false,
+    "role": "user"
+  },
+  {
+    "user": "alice",
+    "event_type": "login_failed",
+    "ip_address": "10.0.0.10",
+    "timestamp": "2026-10-08T09:02:00Z",
+    "location": "Kochi",
+    "success": false,
+    "role": "user"
+  },
+  {
+    "user": "bob",
+    "event_type": "mfa_request",
+    "ip_address": "10.0.0.20",
+    "timestamp": "2026-10-08T09:10:00Z",
+    "location": "Bangalore",
+    "success": true,
+    "role": "user"
+  },
+  {
+    "user": "bob",
+    "event_type": "mfa_request",
+    "ip_address": "10.0.0.20",
+    "timestamp": "2026-10-08T09:11:00Z",
+    "location": "Bangalore",
+    "success": true,
+    "role": "user"
+  },
+  {
+    "user": "bob",
+    "event_type": "mfa_request",
+    "ip_address": "10.0.0.20",
+    "timestamp": "2026-10-08T09:12:00Z",
+    "location": "Bangalore",
+    "success": true,
+    "role": "user"
+  },
+  {
+    "user": "charlie",
+    "event_type": "login",
+    "ip_address": "10.0.0.30",
+    "timestamp": "2026-10-08T10:00:00Z",
+    "location": "Kochi",
+    "success": true,
+    "role": "user"
+  },
+  {
+    "user": "charlie",
+    "event_type": "login",
+    "ip_address": "10.0.0.31",
+    "timestamp": "2026-10-08T10:05:00Z",
+    "location": "London",
+    "success": true,
+    "role": "user"
+  },
+  {
+    "user": "david",
+    "event_type": "role_changed",
+    "ip_address": "10.0.0.40",
+    "timestamp": "2026-10-08T10:20:00Z",
+    "location": "Kochi",
+    "success": true,
+    "role": "admin"
+  }
+]
